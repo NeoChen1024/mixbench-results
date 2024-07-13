@@ -1,0 +1,24 @@
+mixbench (v0.04-12-g440a133)
+------------------------ Device specifications ------------------------
+Device:              NVIDIA GeForce RTX 4070 SUPER
+CUDA driver version: 12.40
+GPU clock rate:      2640 MHz
+Memory clock rate:   5250 MHz
+Memory bus width:    192 bits
+WarpSize:            32
+L2 cache size:       49152 KB
+Total global mem:    11788 MB
+ECC enabled:         No
+Compute Capability:  8.9
+Total SPs:           7168 (56 MPs x 128 SPs/MP)
+Compute throughput:  37847.04 GFlops (theoretical single precision FMAs)
+Memory bandwidth:    504.05 GB/sec
+-----------------------------------------------------------------------
+Total GPU memory 12361203712, free 12162957312
+Buffer size:          256MB
+Trade-off type:       compute with global memory (block strided)
+Elements per thread:  8
+Thread fusion degree: 4
+----------------------------------------------------------------------------- CSV data -----------------------------------------------------------------------------
+Experiment ID, Single Precision ops,,,,              Double precision ops,,,,              Half precision ops,,,,                Integer operations,,, 
+Compute iters, Flops/byte, ex.time,  GFLOPS, GB/sec, Flops/byte, ex.time,  GFLOPS, GB/sec, Flops/byte, ex.time,  GFLOPS, GB/sec, Iops/byte, ex.time,   GIOPS, GB/sec
